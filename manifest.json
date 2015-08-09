@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Con2INR",
+	"description": "Latest conversion rate to INR",
+	"version": "1.0",
+
+	"permissions": [
+          "storage",
+          "http://www.xe.com/"          
+          //"http://www.google.com/",
+          
+    ],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
